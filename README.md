@@ -18,9 +18,9 @@ For details and explanation, see the accompanying article [Run a parallel worklo
 ## Prerequisites
 
 - Azure Batch account and linked general-purpose Azure Storage account
-- Visual Studio 2017, or [.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1) for Linux, macOS, or Windows
-- Windows 64-bit version of [ffmpeg 3.4](https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.4-win64-static.zip)
-- Add ffmpeg as an [application package](https://docs.microsoft.com/azure/batch/batch-application-packages) to your Batch account (Application Id: *ffmpeg*, Version: *3.4*)
+- Visual Studio 2022, or [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) for Linux, macOS, or Windows
+- Windows 64-bit version of [ffmpeg 5.0.1](https://github.com/GyanD/codexffmpeg/releases/tag/5.0.1)
+- Add ffmpeg as an [application package](https://docs.microsoft.com/azure/batch/batch-application-packages) to your Batch account (Application Id: *ffmpeg*, Version: *5.0.1*)
 
 ## Resources
 
